@@ -9,6 +9,7 @@ body{
 }
 
 .canvas{
+    margin-top: 10px;
     width:450px;
     height: 450px;
     background-color: white;
@@ -47,10 +48,15 @@ body{
     transform: scale(0.98);
 }
 
-.control .controls_colors{
+.controls_colors{
+    
+    position:relative;
+    top:-500px; 
+    left:-300px;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-
 
 .controls_colors .controls_color {
     width: 20px;
