@@ -9,6 +9,7 @@ body{
 }
 
 .canvas{
+    cursor: pointer;
     margin-top: 10px;
     width:450px;
     height: 450px;
@@ -29,6 +30,7 @@ body{
 }
 
 .controls_btns button {
+    cursor: pointer;
     all:unset;
     cursor:pointer;
     background-color: white;
@@ -48,8 +50,8 @@ body{
     transform: scale(0.98);
 }
 
-.controls_colors{
-    
+.control .controls_colors{
+    cursor: pointer;
     position:relative;
     top:-500px; 
     left:-300px;
@@ -68,5 +70,4 @@ body{
 
 .control .controls_range{
     margin-bottom: 7px;
-
 }

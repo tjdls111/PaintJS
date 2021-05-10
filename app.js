@@ -73,7 +73,6 @@ function handleCanvasClick(){
     
 
 function handleSaveClick(){
-
     const image=canvas.toDataURL("image/png");
     const link=document.createElement("a");
     link.href=image;
